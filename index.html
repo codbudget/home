@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="styles.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+     
+     <div class="expense_container">
+          <div class="total_income">
+
+               <marquee behavior="alternate" direction="left" id="blink" scrolldelay="300"></marquee>
+               
+               <div id="income_display" class="income_display"></div>
+
+
+               <marquee behavior="alternate" direction="left" id="blink2" scrolldelay="300"></marquee>
+               
+               <div id="total_balance" class="total_balance"></div>
+          </div>
+
+          
+          <div class="input_expenses">
+               <p id="enter"> </p>
+               <div class="income_submit_field">
+               <input type="text" id="income_submit">
+               </div>
+
+               <p id="userExpense"></p>
+               <div class="inputs" id="inputs">
+               <input type="text" name="" id="inputexpenses"   placeholder="expenses here" class="input_fieldss">
+          </div>
+     </div>
+     <button  id="sum-btn" onclick="additon()">Check</button>
+     <input type="button" value="Add Input" id="clone">
+
+  
+
+
+      <script src="script.js"></script>
+</body>
+</html>
