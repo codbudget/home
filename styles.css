@@ -128,7 +128,7 @@ body{
 
  @media only screen and (max-width: 900px){
   .expense_container{
-     max-width: 280px;
+     max-width: 270px;
      align-items: center;
      justify-content: center;
      background-color: #230035;
